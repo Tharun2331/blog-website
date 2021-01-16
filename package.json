@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "devStart": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +16,6 @@
     "marked": "^1.2.7",
     "method-override": "^3.0.0",
     "mongoose": "^5.11.10",
-    "serve": "^11.3.2",
     "slugify": "^1.4.6"
   },
   "devDependencies": {
